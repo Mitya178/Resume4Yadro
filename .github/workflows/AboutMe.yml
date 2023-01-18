@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: apt install sphinx
-      run : apt install sphinx
+      run : sudo apt install sphinx
     - name: cloning repository
       run : git clone https://github.com/Mitya178/Resume4Yadro.git
     - name: make html
