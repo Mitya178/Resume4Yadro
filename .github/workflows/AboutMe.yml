@@ -14,6 +14,6 @@ jobs:
     - name: change permission
       run : sudo chmod 777 Resume4Yadro
     - name: make html
-      run : ls -la && cd Resume4Yadro && make html
+      run : ls -la && cd Resume4Yadro && ls -la && make html
 
  
